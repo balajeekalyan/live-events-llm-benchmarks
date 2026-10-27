@@ -3,8 +3,8 @@ message: "If you use this benchmark, please cite it as below."
 type: software
 title: "live-events-llm-benchmarks: A Code-Scored Benchmark for Natural-Language Live-Event Search"
 version: 0.1.0
-# date-released: YYYY-MM-DD   (set to the v0.1.0 tag date)
-# doi: 10.5281/zenodo.XXXXXXX  (add after Zenodo mints the DOI)
+date-released: 2026-10-27
+doi: 10.5281/zenodo.23681408
 authors:
   - family-names: Kalyanasundaram
     given-names: Balajee
