@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+type: software
+title: "live-events-llm-benchmarks: A Code-Scored Benchmark for Natural-Language Live-Event Search"
+version: 0.1.0
+# date-released: YYYY-MM-DD   (set to the v0.1.0 tag date)
+# doi: 10.5281/zenodo.XXXXXXX  (add after Zenodo mints the DOI)
+authors:
+  - family-names: Kalyanasundaram
+    given-names: Balajee
+    affiliation: Independent Researcher
+    email: balajeekalyanasundaram@ieee.org
+    orcid: "https://orcid.org/0009-0007-7292-2417"
+repository-code: "https://github.com/balajeekalyan/live-events-llm-benchmarks"
+license: MIT
+abstract: >-
+  A benchmark for natural-language live-event search with tool-calling LLM
+  agents: a seeded synthetic catalog of 1,200 events and 5,669 dated
+  occurrences, 400 queries labeled with machine-readable constraints in nine
+  slices, and a scorer that computes gold answers from the constraints with the
+  same matching code the search tool uses, so no LLM judge is needed. Includes
+  single-prompt, routed, content-control and type-neutral systems built on
+  figureout.
+keywords:
+  - large language models
+  - tool calling
+  - agent routing
+  - benchmark
+  - function calling
+  - consumer assistants
+# After acceptance, add the paper so citers cite it instead of the software:
+# preferred-citation:
+#   type: conference-paper
+#   title: "When Does Role Routing Help Tool-Calling Agents? A Code-Scored Benchmark for Natural-Language Live-Event Search"
+#   authors:
+#     - family-names: Kalyanasundaram
+#       given-names: Balajee
+#   collection-title: "Proceedings of the IEEE International Conference on Consumer Electronics (ICCE)"
+#   year: 2027
+#   doi: 10.1109/...
